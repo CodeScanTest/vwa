@@ -2,7 +2,7 @@
 
 
 ## setup GO & copying
-FROM golang:1.8
+FROM golang:bookworm
 RUN mkdir -p /go/src/vwa
 WORKDIR /go/src/vwa
 ADD . /go/src/vwa
